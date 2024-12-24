@@ -46,7 +46,8 @@ Vite: npm install -D vite @vitejs/plugin-react
 ESLint: npm install -D eslint @eslint/js eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-react-refresh
 TypeScript Definitions: npm install -D @types/react @types/react-dom
 
-#.env Structure
+#.env Structure \n
+
 FIREBASE_PROJECT_ID=your-firebase-project-id
 FIREBASE_PRIVATE_KEY_PATH=../firebase-service-account.json
 FIREBASE_DATABASE_URL=https://your-firebase-database-url.firebaseio.com
