@@ -46,19 +46,14 @@ Vite: npm install -D vite @vitejs/plugin-react
 ESLint: npm install -D eslint @eslint/js eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-react-refresh
 TypeScript Definitions: npm install -D @types/react @types/react-dom
 
-
-# Firebase Configuration
+#.env Structure
 FIREBASE_PROJECT_ID=your-firebase-project-id
 FIREBASE_PRIVATE_KEY_PATH=../firebase-service-account.json
 FIREBASE_DATABASE_URL=https://your-firebase-database-url.firebaseio.com
-
-# Server Configuration
 PORT=5000
-
-# JWT Token
 JWT_SECRET=your-secret-key-here
 JWT_EXPIRES_IN=1h
 
 
-Generate firebase access service file
+You have to Generate firebase access service file
 
