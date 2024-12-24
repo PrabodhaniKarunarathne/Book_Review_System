@@ -1,0 +1,36 @@
+.landingpage{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    
+    
+  }
+  
+ 
+/* Adding the keyframe animation for the gradient */
+@keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  /* Applying the gradient animation */
+  .animate-gradient-text {
+    background: linear-gradient(45deg, #E2F3FD, #2980F2, #999999, #BCD7F6,#F9FCFE);
+    background-size: 400% 400%;
+    background-clip: text;
+    color: transparent;
+    animation: gradientAnimation 10s ease infinite;
+  }
+  
+  /* Optional: You can also add hover effect if you want */
+  .animate-gradient-text:hover {
+    animation: gradientAnimation 10s ease infinite;
+  }
